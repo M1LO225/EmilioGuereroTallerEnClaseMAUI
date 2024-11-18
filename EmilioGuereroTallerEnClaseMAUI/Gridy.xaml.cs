@@ -6,4 +6,9 @@ public partial class Gridy : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void Boton2_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new Stack());
+    }
 }
