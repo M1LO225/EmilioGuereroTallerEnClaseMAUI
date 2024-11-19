@@ -3,10 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EmilioGuereroTallerEnClaseMAUI.Stack"
              Title="Stack">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <StackLayout Orientation="Vertical">
+        <Label Text="Emilio" FontSize="30"/>
+
+    </StackLayout>
+        
+    <StackLayout Orientation="Vertical">
+        <Label Text="Esteban" FontSize="18"/>
+    </StackLayout>
+    
+    <StackLayout Orientation="Vertical">
+        <Label Text="Guerrero" FontSize="24"/>
+    </StackLayout>           
+       
 </ContentPage>
