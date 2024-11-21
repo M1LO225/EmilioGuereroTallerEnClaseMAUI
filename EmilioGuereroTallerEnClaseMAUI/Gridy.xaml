@@ -29,6 +29,5 @@
             HorizontalOptions="End"
             VerticalOptions="End"
             Clicked="Boton2_Clicked"/>
-
     </Grid>
 </ContentPage>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EmilioGuereroTallerEnClaseMAUI.Flex"
+             Title="Flex">
+  
+    <FlexLayout Direction="Row"
+            AlignItems="Center"
+            JustifyContent="SpaceEvenly">
+        <Image Source="https://i.pinimg.com/474x/58/9e/14/589e1409b4bc80e0b5ba99538251d66c.jpg" WidthRequest="100" HeightRequest="100"/>
+        <Button 
+            x:Name="Boton4"
+            Text="Absolute"
+            Clicked="Boton4_Clicked"/>
+        <Label Text="Emilio Guerrero" />
+    </FlexLayout>
+
+</ContentPage>

@@ -3,17 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="EmilioGuereroTallerEnClaseMAUI.Stack"
              Title="Stack">
-    <StackLayout Orientation="Vertical">
-        <Label Text="Emilio" FontSize="30"/>
-
-    </StackLayout>
+    <StackLayout Orientation="Vertical"
+                 Padding="20"
+                 Spacing="10">
         
-    <StackLayout Orientation="Vertical">
+        <Label Text="Emilio" FontSize="30"/>
         <Label Text="Esteban" FontSize="18"/>
-    </StackLayout>
-    
-    <StackLayout Orientation="Vertical">
         <Label Text="Guerrero" FontSize="24"/>
-    </StackLayout>           
-       
+        
+        <Button 
+            x:Name="Boton3"
+            Text="FlexLayout"
+            Clicked="Boton3_Clicked"/>
+    </StackLayout>
+
 </ContentPage>
